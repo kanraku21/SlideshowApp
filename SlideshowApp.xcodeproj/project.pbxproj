@@ -12,6 +12,10 @@
 		A707AB67235B6CEB00DDE5A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A707AB65235B6CEB00DDE5A8 /* Main.storyboard */; };
 		A707AB69235B6CED00DDE5A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A707AB68235B6CED00DDE5A8 /* Assets.xcassets */; };
 		A707AB6C235B6CED00DDE5A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A707AB6A235B6CED00DDE5A8 /* LaunchScreen.storyboard */; };
+		A707AB80235B7B5A00DDE5A8 /* neko1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A707AB7F235B7B5A00DDE5A8 /* neko1.jpg */; };
+		A707AB86235C6D7800DDE5A8 /* neko2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A707AB85235C6D7800DDE5A8 /* neko2.jpg */; };
+		A707AB88235C6D8300DDE5A8 /* neko3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A707AB87235C6D8300DDE5A8 /* neko3.jpg */; };
+		A707AB8A235CC88900DDE5A8 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A707AB89235CC88900DDE5A8 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		A707AB68235B6CED00DDE5A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A707AB6B235B6CED00DDE5A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A707AB6D235B6CED00DDE5A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A707AB7F235B7B5A00DDE5A8 /* neko1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = neko1.jpg; path = ../neko1.jpg; sourceTree = "<group>"; };
+		A707AB85235C6D7800DDE5A8 /* neko2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = neko2.jpg; path = ../../../neko2.jpg; sourceTree = "<group>"; };
+		A707AB87235C6D8300DDE5A8 /* neko3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = neko3.jpg; path = ../../../neko3.jpg; sourceTree = "<group>"; };
+		A707AB89235CC88900DDE5A8 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 			children = (
 				A707AB61235B6CEB00DDE5A8 /* AppDelegate.swift */,
 				A707AB63235B6CEB00DDE5A8 /* ViewController.swift */,
+				A707AB89235CC88900DDE5A8 /* ResultViewController.swift */,
 				A707AB65235B6CEB00DDE5A8 /* Main.storyboard */,
 				A707AB68235B6CED00DDE5A8 /* Assets.xcassets */,
 				A707AB6A235B6CED00DDE5A8 /* LaunchScreen.storyboard */,
 				A707AB6D235B6CED00DDE5A8 /* Info.plist */,
+				A707AB7F235B7B5A00DDE5A8 /* neko1.jpg */,
+				A707AB85235C6D7800DDE5A8 /* neko2.jpg */,
+				A707AB87235C6D8300DDE5A8 /* neko3.jpg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -122,8 +134,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A707AB88235C6D8300DDE5A8 /* neko3.jpg in Resources */,
+				A707AB86235C6D7800DDE5A8 /* neko2.jpg in Resources */,
 				A707AB6C235B6CED00DDE5A8 /* LaunchScreen.storyboard in Resources */,
 				A707AB69235B6CED00DDE5A8 /* Assets.xcassets in Resources */,
+				A707AB80235B7B5A00DDE5A8 /* neko1.jpg in Resources */,
 				A707AB67235B6CEB00DDE5A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +152,7 @@
 			files = (
 				A707AB64235B6CEB00DDE5A8 /* ViewController.swift in Sources */,
 				A707AB62235B6CEB00DDE5A8 /* AppDelegate.swift in Sources */,
+				A707AB8A235CC88900DDE5A8 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
